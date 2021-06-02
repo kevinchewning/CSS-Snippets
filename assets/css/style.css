@@ -1,0 +1,25 @@
+:root {
+    --background-color: #000;
+    --text-color: #9400bd;
+    --background-gradient: linear-gradient(rgba(232,102,236,0.3) 0%, rgba(232,102,236,0.6) 100%)  
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    text-align: center;
+}
+
+.code-card {
+    border: 1px dashed #fff
+}
+
+.code-header {
+    border: 1px solid #fff;
+    position: relative;
+    margin-top: -20px;
+}
+
